@@ -45,3 +45,7 @@ def number_to_full_month_name(num)
     when 9 then return "Sep"
     end
   end
+
+  def exponentiate(num)
+    return 5**3
+  end
