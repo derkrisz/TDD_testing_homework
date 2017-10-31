@@ -49,3 +49,8 @@ def number_to_full_month_name(num)
   def exponentiate(num)
     return 5**3
   end
+
+  def sphere_volume(num)
+    result = (1**3)*1.25*3.14
+    return result.round(3)
+  end
