@@ -25,3 +25,7 @@ end
 def join_string(str1, str2)
   return "#{str1}#{str2}"
 end
+
+def add_string_as_number(str1, str2)
+  return str1.to_i+str2.to_i
+end
