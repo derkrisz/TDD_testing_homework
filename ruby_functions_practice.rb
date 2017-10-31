@@ -10,6 +10,10 @@
 #   return 10-5
 # end
 
-def multiply(num1, num2)
-  return 4 * 2
+# def multiply(num1, num2)
+#   return 4 * 2
+# end
+
+def divide(num1, num2)
+  return 10/2
 end
