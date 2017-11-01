@@ -47,15 +47,15 @@ def number_to_full_month_name(num)
   end
 
   def exponentiate(num)
-    return 5**3
+    return num**3
   end
 
   def sphere_volume(num)
-    result = (1**3)*1.25*3.14
+    result = (num**3)*1.25*3.14
     return result.round(3)
   end
 
   def fahreheit_to_celcius(num)
-    result = (100-32)/1.8
+    result = (num-32)/1.8
     return result.round(1)
   end
